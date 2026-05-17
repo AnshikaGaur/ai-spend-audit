@@ -34,3 +34,23 @@ causing a 404 — fixed by renaming and restarting the dev server.
 
 **Plan for tomorrow:** Add email capture, shareable report link and 
 connect Supabase database.
+
+
+## Day 3 — 2026-05-18
+
+**Hours worked:** 3
+
+**What I did:** Set up Supabase database, created audits table, 
+connected it to the app. Built email capture popup on results page. 
+Each audit now gets saved to database and generates a unique 
+shareable link that anyone can open.
+
+**What I learned:** How Supabase works as a database, how dynamic 
+routing works in Next.js using [id] folders, how to fetch specific 
+data from a database using a unique ID.
+
+**Blockers / what I'm stuck on:** Results folder was initially named 
+wrong causing 404. Fixed by renaming it.
+
+**Plan for tomorrow:** Write all required documents — README, GTM, 
+ECONOMICS. Do user interviews.
